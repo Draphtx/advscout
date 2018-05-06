@@ -1,9 +1,16 @@
 #!/usr/bin/python
 
 import requests
+import optparse
 
+parser = optparse.OptionParser()
+parser.add_option('-k', '--key',
+                  dest='key',
+                  default=None,
+                  help="Supply GMaps API key")
 
-api_key = 'AIzaSyBKgW0PaNiUECH4vb20DXQ29uW1zfbx39o'
+(options, args) = parser.parse_args()
+api_key = options.key
 
 class GMaps_Place_Nearby():
     def __init__(self, coordinates, category, radius=1500, keyword=None):
