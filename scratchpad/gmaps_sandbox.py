@@ -30,10 +30,11 @@ class GMaps_Place_Nearby():
 
 
 def main():
-    current_coordinates = '33.7516104,-84.3594624'  # Krog Street Market
+    current_coordinates = '35.367047573,-84.301181752'  # Krog Street Market
     r = GMaps_Place_Nearby(current_coordinates, 'restaurant')
     results = r.query()
     print results
+    print len(results['results'])
 
 
 
