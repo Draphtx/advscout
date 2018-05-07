@@ -81,9 +81,8 @@ paid model for more complex searches.
 ## Screenshots
 Below is a basic before & after: the original route as read by Google My Maps, and the route with Google Maps location 
 waypoint data added.
-![Before]
-(https://github.com/Draphtx/advscout/blob/master/screenshots/map_pre_advs.png)
-![After]
+![Before](/screenshots/map_pre_advs.png)
+![After](/screenshots/map_post_advs.png)
 (https://github.com/Draphtx/advscout/blob/master/screenshots/map_post_advs.png)
 
 The observant among you will note that the route has been simplified and contains less detail than the original; this 
