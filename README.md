@@ -77,3 +77,14 @@ For this reason I suggest setting the radius to 5 miles or less.
 result in thousands or even tens of thousands of API calls. For this reason free ADVScout searches will be limited in 
 various ways that have not been determined at the time of this writing, probably through a (minimally expensive) 
 paid model for more complex searches.
+
+## Screenshots
+Below is a basic before & after: the original route as read by Google My Maps, and the route with Google Maps location 
+waypoint data added.
+![Before]
+(https://github.com/Draphtx/advscout/blob/master/screenshots/map_pre_advs.png)
+![After]
+(https://github.com/Draphtx/advscout/blob/master/screenshots/map_post_advs.png)
+
+The observant among you will note that the route has been simplified and contains less detail than the original; this 
+is not the intent and I'll have to look into why this is happening.
